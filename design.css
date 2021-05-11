@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: solid 1px rgb(175, 175, 175);
+  padding: 30px 0;
+  margin: 0;
+}
+
+.wrapper { /*철자철자철자철자철자 잘보자*/
+  display: grid;
+  grid-template-columns: 137px 1fr;
+  height: 618px;
+}
+
+.menu {
+  border-right: solid 1px rgb(175, 175, 175);
+  width: 100px;
+  padding: 25px 0 0 37px;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  margin: 20px 0 0 -20px;
+}
+
+.content {
+  padding: 20px 30px 0 30px;
+}
+
+p {
+  text-align: justify;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 520px) {
+  .wrapper { /*철자철자철자철자철자 잘보자*/
+    display: block;
+  }
+  .menu {
+    border-bottom: solid 1px rgb(175, 175, 175);
+    border-right: none;
+    width: 520px;
+    padding: 25px 0 25px 50px;
+  }
+}
